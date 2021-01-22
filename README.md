@@ -4,7 +4,9 @@ Repository này cho phép deploy 1 challenge programming được build từ Doc
 
 ## 1. Docker
 Là một nền tảng để cung cấp cách để building, deploying và running ứng dụng dễ dàng hơn bằng cách sử dụng các containers (trên nền tảng ảo hóa).
+
 ![](https://i.imgur.com/bQxmYZA.png)
+
 Vì mỗi project mình có thể setup ở một môi trường riêng, nên các challenge sẽ không bị xung đột, chia sẻ tài nguyên tối ưu. Từ đó giảm thiểu tối đa sự phụ thuộc lẫn nhau, cài đặt, thêm bớt sửa xóa các thư viện, cấu hình cũng sẽ không bị ảnh hưởng tới các challenge khác.
 ### Cấu trúc thư mục:
 ```bash
@@ -83,7 +85,9 @@ int main() {
 ...
 }
 ```
+
 `ELF` file được build từ gcc hoặc Makefile có standard (hoặc tương tự):
+
 ```
 ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, not stripped
 ```
